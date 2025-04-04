@@ -1,0 +1,14 @@
+num=int(input("Enter your number:"))
+
+a, b = 0, 1
+count= 0
+
+if n<=0:
+print("Enter a positive number:")
+elif n==1:
+print("Fibonacci series upto 1 is:", a)
+else:
+while count<n
+print(a, end =' ')
+a, b = b, a+b
+count += 1
