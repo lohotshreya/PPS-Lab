@@ -1,0 +1,11 @@
+def reverse_string(text):
+    return text[::-1]
+
+# Get input from the user
+user_input = input("Enter a string to reverse: ")
+
+# Reverse it using slicing magic
+reversed_text = reverse_string(user_input)
+
+# Show the result
+print(f"Reversed string: {reversed_text}")
