@@ -6,7 +6,7 @@ def calculate_sum_and_average(numbers):
 # Get input from the user
 input_str = input("Enter numbers separated by spaces: ")
 
-# Convert the input into a list of floats (because we're fancy like that)
+# Convert the input into a list of floats 
 number_list = [float(num) for num in input_str.split()]
 
 # Get the sum and average
