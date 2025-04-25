@@ -1,0 +1,6 @@
+f = open("C:/Users/admin/Desktop/hello.txt.txt", "a")
+f.write("Now the file has more content!")
+f.close()
+
+f = open("C:/Users/admin/Desktop/hello.txt.txt", "r")
+print(f.read())
