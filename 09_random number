@@ -1,0 +1,12 @@
+import random
+
+def generate_random(start, end):
+    return random.randint(start, end)
+
+# Get range from the user
+start = int(input("Enter the starting number of the range: "))
+end = int(input("Enter the ending number of the range: "))
+
+# Generate and show the random number
+random_number = generate_random(start, end)
+print(f"Your random number between {start} and {end} is: {random_number} 🎲✨")
