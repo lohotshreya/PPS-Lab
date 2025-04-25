@@ -1,0 +1,17 @@
+def calculate_sum_and_average(numbers):
+    total = sum(numbers)
+    average = total / len(numbers) if numbers else 0
+    return total, average
+
+# Get input from the user
+input_str = input("Enter numbers separated by spaces: ")
+
+# Convert the input into a list of floats (because we're fancy like that)
+number_list = [float(num) for num in input_str.split()]
+
+# Get the sum and average
+total, avg = calculate_sum_and_average(number_list)
+
+# Print the results
+print(f"Sum of the list: {total}")
+print(f"Average of the list: {avg}")
