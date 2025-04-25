@@ -1,0 +1,3 @@
+with open("C:/Users/admin/Desktop/hello.txt.txt") as f:
+    words = f.read().split()
+    print("Word count:", len(words))
