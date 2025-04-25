@@ -1,1 +1,8 @@
+set1 = set(input("Enter elements of the first set: "))
+set2 = set(input("Enter elements of the second set: "))
 
+intersection = set1 & set2
+union = set1.union(set2)
+
+print(f"\n Intersection is: {intersection}")
+print(f" Union is: {union}")
