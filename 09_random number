@@ -9,4 +9,4 @@ end = int(input("Enter the ending number of the range: "))
 
 # Generate and show the random number
 random_number = generate_random(start, end)
-print(f"Your random number between {start} and {end} is: {random_number} 🎲✨")
+print(f"Your random number between {start} and {end} is: {random_number} ")
